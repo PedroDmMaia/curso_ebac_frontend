@@ -8,3 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.0.1] - 2023-04-18
 ### Added
 - Added changelog.md
+
+## [0.0.2] - 2023-05-16
+### removed
+- remoção de arquivo teste.txt
