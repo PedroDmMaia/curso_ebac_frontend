@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Formulario</h1>
+        <h3>o número B precisa ser maior que o número A</h3>
+        <form id="formulario">
+            <label>Digite o numero A</label>
+            <input id="numero1" type="number" required min="0" max="10">
+            <label>Digite o numero B</label>
+            <input id="numero2" type="number" required min="0" max="10">
+            <p class="error-message">O número B, precisa ser maior que o número A</p>
+            <button type="submit">Validar</button>
+            <p class="success-message">O número B é maior que o número A</p>
+        </form>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
